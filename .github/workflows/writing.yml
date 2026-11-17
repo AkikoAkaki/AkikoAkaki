@@ -15,4 +15,4 @@ jobs:
           feed_list: "https://akiliu.vercel.app/notes/index.xml,https://akiliu.vercel.app/textlab/index.xml,https://akiliu.vercel.app/weeknotes/index.xml"
           max_post_count: 5
           date_format: "yyyy-mm-dd"
-          template: "- [$title]($url) <sub>$date</sub>$newline"
+          template: "$newline- [$title]($url) <sub>$date</sub>"
